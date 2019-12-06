@@ -55,6 +55,7 @@ a:focus {
     display: flex;
     width: 100%;
     align-items: stretch;
+    height: 100%;
 }
 
 #sidebar {
@@ -63,6 +64,9 @@ a:focus {
     background: #7386D5;
     color: #fff;
     transition: all 0.3s;
+    margin-bottom: -5000px;
+    /* any large number will do */
+    padding-bottom: 5000px;
 }
 
 #sidebar.active {
